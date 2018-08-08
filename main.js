@@ -6,7 +6,7 @@ const path_1 = require("path");
 const url_1 = require("url");
 const readFile = util_1.promisify(fs.readFile);
 const staticDir = "node_modules/dapp-form/docs/";
-const urlPath = "dapp-form-serve";
+const urlPath = "dappform-host-task";
 const mimeTypes = {
     "html": "text/html",
     "jpeg": "image/jpeg",
@@ -17,7 +17,7 @@ const mimeTypes = {
 };
 module.exports = async function (context, req, res) {
     const path = url_1.parse(req.url).pathname;
-    const file = (path === '/dapp-form-serve') ? "index.html" : ""; // default file to serve in directories
+    const file = (path === '/dappform-host-task') ? "index.html" : ""; // default file to serve in directories
     const localPath = path.replace(urlPath, '') + file;
     let fileContents;
     try {
