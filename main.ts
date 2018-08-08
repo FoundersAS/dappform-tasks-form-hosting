@@ -6,7 +6,7 @@ import { parse } from 'url'
 
 const readFile = promisify(fs.readFile)
 const staticDir = "node_modules/dapp-form/docs/"
-const urlPath = "dappform-host-task"
+const urlPath = "dappform-tasks-host"
 
 const mimeTypes = {
   "html": "text/html",
@@ -19,7 +19,7 @@ const mimeTypes = {
 
 module.exports = async function (context, req:IncomingMessage, res) {
   const path = parse(req.url).pathname
-  const file = (path === '/dappform-host-task') ? "index.html" : "" // default file to serve in directories
+  const file = (path === '/dappform-tasks-host') ? "index.html" : "" // default file to serve in directories
   const localPath = path.replace(urlPath, '') + file
   let fileContents:Buffer
   try {
