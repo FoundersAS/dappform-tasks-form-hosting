@@ -6,7 +6,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dapp-form": "*"
+    "dapp-form": "7.*"
   },
   "devDependencies": {
     "@types/node": "^8.10.24",
