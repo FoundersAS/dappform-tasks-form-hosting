@@ -2,10 +2,6 @@
   "version": "1.0.0",
   "description": "bla",
   "main": "main.js",
-  "repository": {
-    "type": "git",
-    "url": "http://github"
-  },
   "scripts": {},
   "author": "",
   "license": "ISC",
@@ -16,5 +12,14 @@
     "@types/node": "^8.10.24",
     "typescript": "^3.0.1"
   },
-  "name": "dapp-form-serve"
+  "name": "dapp-form-serve",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoundersAS/dappform-tasks-form-hosting.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FoundersAS/dappform-tasks-form-hosting/issues"
+  },
+  "homepage": "https://github.com/FoundersAS/dappform-tasks-form-hosting#readme"
 }
