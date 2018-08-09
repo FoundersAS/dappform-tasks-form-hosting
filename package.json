@@ -6,9 +6,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dapp-form": ">=7.0.0"
+    "dapp-form": ">=7.0.0",
+    "express": "^4.16.3",
+    "webtask-tools": "^3.3.0"
   },
   "devDependencies": {
+    "@types/express": "^4.16.0",
     "@types/node": "^8.10.24",
     "typescript": "^3.0.1"
   },
