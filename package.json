@@ -6,7 +6,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dapp-form": "^10.0.2",
+    "dapp-form": "^10.0.6",
     "express": "4.16.3",
     "webtask-tools": "^3.3.0"
   },
