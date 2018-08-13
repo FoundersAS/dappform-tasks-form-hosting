@@ -3,7 +3,7 @@ import { join } from 'path'
 
 const wt = require('webtask-tools')
 
-const staticDir = "node_modules/dapp-form/docs/"
+const staticDir = "node_modules/dappform-filler/dist"
 
 const app = express()
 
