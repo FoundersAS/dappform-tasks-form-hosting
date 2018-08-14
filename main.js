@@ -5,6 +5,7 @@ const path_1 = require("path");
 const wt = require('webtask-tools');
 const staticDir = "node_modules/dappform-filler/dist";
 const app = express();
+app.get('/version', (req, res) => res.send(req.webtaskContext.secrets.version || "0.0.0"));
 app.use(express.static(path_1.join(__dirname, staticDir)));
 module.exports = wt.fromExpress(app);
 // const testPort = 3000
